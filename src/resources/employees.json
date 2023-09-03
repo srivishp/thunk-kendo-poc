@@ -1,0 +1,62 @@
+[
+  {
+    "EmployeeID": 1,
+    "EmployeeName": "Joey",
+    "Experience": "5",
+    "Email": "Joey@gmail.com",
+    "Department": {
+      "DepartmentID": 1,
+      "DepartmentName": "Food"
+    }
+  },
+  {
+    "EmployeeID": 2,
+    "EmployeeName": "Chandler",
+    "Experience": "5",
+    "Email": "Chandler@gmail.com",
+    "Department": {
+      "DepartmentID": 1,
+      "DepartmentName": "Jokes"
+    }
+  },
+  {
+    "EmployeeID": 3,
+    "EmployeeName": "Ross",
+    "Experience": "5",
+    "Email": "Ross@gmail.com",
+    "Department": {
+      "DepartmentID": 1,
+      "DepartmentName": "Dinosaurs"
+    }
+  },
+  {
+    "EmployeeID": 4,
+    "EmployeeName": "Monica",
+    "Experience": "5",
+    "Email": "Monica@gmail.com",
+    "Department": {
+      "DepartmentID": 1,
+      "DepartmentName": "Housekeeping"
+    }
+  },
+  {
+    "EmployeeID": 5,
+    "EmployeeName": "Phoebe",
+    "Experience": "5",
+    "Email": "Phoebe@gmail.com",
+    "Department": {
+      "DepartmentID": 1,
+      "DepartmentName": "Music"
+    }
+  },
+  {
+    "EmployeeID": 6,
+    "EmployeeName": "Rachel",
+    "Experience": "5",
+    "Email": "Rachel@gmail.com",
+    "Department": {
+      "DepartmentID": 1,
+      "DepartmentName": "Fashion"
+    }
+  }
+]

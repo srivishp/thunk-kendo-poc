@@ -1,0 +1,237 @@
+// Normalization
+body,
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+// App styles
+
+.product-name {
+    height: 5px;
+    background-color: #61dafb;
+}
+
+.custom-toolbar { 
+    height: 30px;
+    background-color: #61dafb;
+    color: $black;
+    padding-top: 5px;
+}
+
+.bdyHead {
+  height: 558px;
+}
+
+.title {
+    color: $white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.k-drawer-container.k-drawer-push .k-drawer {
+
+}
+
+.k-drawer-item.k-selected {
+    color: $white;
+    background-color: $lightgrey !important;
+}
+
+.k-drawer-item {
+    color: $white;
+}
+ 
+.k-grid td {
+    line-height: 1em;
+    font-size: 10px;
+}
+
+.k-column-title {
+    
+    font-size: 10px;
+}
+
+.k-pager-numbers {
+    font-size: 10px;
+}
+
+.k-pager-numbers .k-selected {
+    font-size: 10px;
+}
+
+.k-button-text {
+    font-size: 10px;
+}
+.k-button-flat {
+    font-size: 10px;
+}
+.k-pager-info {
+    font-size: 10px;
+}
+
+.header{
+    font-size: medium;
+    color: black;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    margin-left: 0p
+}
+
+
+.k-menu-link-text {
+    color: black;
+    font-family: sans-serif;
+}
+
+.headmenu {
+    font-weight: 500;
+    color: black;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+
+.outer {
+    background-color: #000000;
+    color: $linkcolor !important;    
+      width: 16px;
+      position: relative;
+      display: inline-block;
+      margin-right: 98%;
+  }
+  
+  .inner {
+    font-size: 13px; 
+    color: $linkcolor !important;    
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 20%;
+    margin-top: 85px;
+  }
+  
+  .rotate {
+    -webkit-transform: rotate(-90deg);
+    -ff-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    width: 19px;  /* transform: rotate() does not rotate the bounding box. */
+  }
+
+.k-grid   {
+    font-size: 8px; 
+    .k-table-thead {
+        color: $black;
+        height: 8px;
+
+        .k-table-row { 
+            color: $black;
+            height: 8px;
+        }
+    }
+
+}
+
+.k-chart {
+    height: 400px;
+    width: 800px;
+    margin-left: 20%;
+}
+
+.titleh2 {
+    color: $linkcolor !important;    
+}
+
+.linkclr {
+    color: $link-color !important;    
+}
+
+.k-tabstrip-items {
+
+    color: $white !important; 
+    margin: 0 !important;
+    padding-block: 0.9rem !important;
+    padding-inline: 5rem !important;
+
+    .k-link {
+        text-align: center;
+        background-color: $lightgrey !important;
+        color: $white !important;  
+        margin-top: 0;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-family: Metric,Helvetica,Arial,sans-serif; 
+        padding-block: 0.9rem !important;
+        padding-inline: 5rem !important;
+    }
+
+}
+
+.k-drawer-container {
+    background-color: $background-color;
+    color: $white;
+
+    .k-drawer {
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+        border-right-width: 0 !important;
+        background-color: $darkgrey !important;
+        color: $white;
+    }
+
+    &.k-drawer-push .k-drawer {
+        position: sticky; 
+        height: calc(100vh - 80px);
+    }
+
+    .k-drawer-item {
+        user-select: none;
+        color: $white;
+    }
+}
+
+.card-container {
+    background-color: $white;
+    padding: 40px 0;
+    text-align: center;
+
+    &.grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 10px;
+        row-gap: 1em;
+    }
+
+    .card-title {
+
+    }
+
+    .card-buttons {
+        .k-button {
+            min-width: 105px;
+        }
+    }
+
+    .card-ranges {
+        .k-daterangepicker {
+            .k-textbox-container, .k-floating-label-container {
+                padding-top: 0; 
+                min-width: 105px;
+            }
+
+            .k-label {
+                display: none;
+            }
+        }
+    }
+
+    .card-component {
+        grid-column: 1 / -1;
+        overflow: hidden;
+    }
+}
+  

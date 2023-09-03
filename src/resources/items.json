@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Users",
+        "route": "/Users"
+    },
+    {
+    "text": "Public ABS",
+    "route": "/abs",
+    "items": [
+        { 
+            "text": "Transaction List",
+            "route": "/transactionlist" 
+        }, 
+        { "text": "Index", 
+          "route": "/index",
+           "items": 
+           [
+            { 
+                "text": "Grid Data",
+                "route": "/griddata",
+                "items": [
+                        { 
+                            "text": "Charts & Chart Patterns2",
+                            "route": "/chartsandchartpatterns" 
+                        }, 
+                        { 
+                            "text": "Trend & Trend Lines2",
+                            "route": "/trend"
+                        }
+                ]  
+            }, 
+            { 
+                "text": "DMPU",
+                "route": "/dmpu" 
+                }
+            ] 
+        }
+    ]
+    }, 
+    {
+    "text": "DMPU",
+    "route": "/dmpu",
+    "items": [
+        { 
+            "text": "The Dow Theory",
+            "route": "/dowtheory" 
+        }, 
+        { 
+            "text": "Charts & Chart Patterns",
+            "route": "/chartsandchartpatternsversion" 
+        }, 
+        { 
+            "text": "Support & Resistance",
+            "route": "/support" 
+        }
+    ]
+    }, 
+    {
+    "text": "FICC",
+    "route": "/ficc"
+    }
+]
