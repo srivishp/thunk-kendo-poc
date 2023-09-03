@@ -1,6 +1,10 @@
 # Getting Started with Create React App
 
-This app requires Thunk,Router, Redux, React-Redux and Redux Toolkit. Install the same with `npm install redux react-redux @reduxjs/toolkit redux-thunk react-router-dom`
+This is a sample React JS & Sass web application which explores the UI features offered by Kendo React and Material UI.
+
+Sign up to the 30 day free trial of Kendo React here -> https://www.telerik.com/kendo-react-ui
+
+This app requires Thunk, Router, Redux, React-Redux and Redux Toolkit. Install the same with `npm install redux react-redux @reduxjs/toolkit redux-thunk react-router-dom`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
